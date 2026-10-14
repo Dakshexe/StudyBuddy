@@ -1,0 +1,8 @@
+{
+  "name": "studybuddy-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A full-stack AI study assistant built with Node.js and browser-native UI.",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js", "check:ai": "node scripts/check-ai.js" },
+  "dependencies": { "pdf-parse": "^1.1.1" }
+}
